@@ -3,7 +3,6 @@ import { availableCryptos } from './availableCryptos.js';
 
 class CryptoTracker {
     constructor(availableCryptos) {
-        this.availableCryptos = availableCryptos;
         this.portfolio = [];
     }
 
@@ -20,6 +19,7 @@ class CryptoTracker {
 
     async selectCryptos() {
         console.log("Select your favorite cryptocurrencies from the list:");
+        this.availableCryptos = await availableCryptos()
 
         const cryptoChoices = this.availableCryptos.map(crypto => ({
             name: `${crypto.name} (${crypto.symbol})`,
