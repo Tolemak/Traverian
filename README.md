@@ -1,6 +1,6 @@
 # Traverian
 
-Traverian is a TypeScript project that offers a command-line interface (CLI) tool for fetching information about top cryptocurrencies, managing portfolios, and tracking changes in cryptocurrency prices over time.
+Traverian is a JavaScript project that offers a command-line interface (CLI) tool for fetching information about top cryptocurrencies, managing portfolios, and tracking changes in cryptocurrency prices over time.
 
 ## Features
 
@@ -13,7 +13,7 @@ Traverian is a TypeScript project that offers a command-line interface (CLI) too
 ## Installation
 
 1. Install Traverian globally via npm: `npm install -g traverian`.
-2. Ensure you have TypeScript installed on your system.
+2. Ensure you have JavaScript installed on your system.
 3. Run Traverian using the command `traverian`.
 
 ## Usage
