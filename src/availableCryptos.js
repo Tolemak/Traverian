@@ -5,7 +5,7 @@ export const availableCryptos = async () => {
         {
             vs_currency: "USD",
             order: "market_cap_desc",
-            per_page: 10
+            per_page: 20
         });
     return data.map(x => ({
         name: x.name,
