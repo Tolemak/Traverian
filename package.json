@@ -1,6 +1,6 @@
 {
   "name": "traverian",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "a simple scripts to communicate over blockchain",
   "main": "./src/index.js",
   "type": "module",
